@@ -8,7 +8,6 @@ dotenv.config();
 interface Videojuego extends RowDataPacket {
     id: number;
     nombre: string;
-    fecha_lanzamiento: Date;
     precio: number;
     disponible: boolean;
 }
